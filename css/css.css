@@ -1,0 +1,108 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e3ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ h1 {
+    text-align: center;
+    color: #b23db4; 
+    margin: 20px 0;
+    font-size: ;
+
+}
+ 
+h2 {
+    font-family: 'Georgia', serif;
+    color: #c64ec8; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+ 
+.blake {
+    border-collapse: collapse;
+    width: 600%;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+img {
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    width: 200%; /* Establece el ancho al 100% del contenedor */
+    max-width: 110px; /* Maxima anchura para pantallas más grandes */
+    margin-bottom: 10px;
+}
+ 
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+ 
+p {
+    color: #555;
+    font-size: 18px; 
+    line-height: 1; 
+}
+ 
+h3 {
+    font-family: 'Georgia', serif; 
+    color: #c64ec8; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+ 
+section {
+    width: 200px;
+    float: center; 
+    padding: 10px;
+    color: black;
+    text-align: justify; 
+    font-size: 20px;
+    padding: 0 150px; 
+}
+ 
+.translation {
+    display: inline; 
+}
+ 
+.show-translation:hover .translation.en {
+    display: none;
+}
+.show-translation:hover .translation.es {
+    display: inline; 
+}
+ 
+.translation.es {
+    display: none; 
+}
+ 
+a {
+    float: right;
+    margin-top: auto;
+    text-decoration: none;
+    color: #c64ec8;
+}
+ 
+.blake td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+ 
+.blake td:hover {
+    transform: scale(1.05);
+    background-color: #e9e9e9;
+}
+ 
+/* Media Query para dispositivos móviles */
+@media (max-width: 600px) {
+    img {
+        width: 80%; /* Ajusta el tamaño de la imagen en móviles */
+        max-width: none; /* Elimina el límite de anchura */
+    }
+}
